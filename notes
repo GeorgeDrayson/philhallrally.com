@@ -1,0 +1,14 @@
+#homepage-image {
+  height: 100%;
+  width: 100%;
+}
+
+#calendar-image {
+  height: 100%;
+  width: 100%;
+}
+
+#social-image {
+  height: 100%;
+  width: 100%;
+}

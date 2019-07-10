@@ -4,28 +4,48 @@ body, html {
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
+
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none;
+}
+
 nav {
-  float: right;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  position: fixed;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
-nav li{
+nav li {
+  float: left;
   display: inline-block;
   margin: 0 35px;
   padding-top: 25px;
 }
 
 nav a {
-  color: #696969;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ff5000;
 }
 
 .page-div {
@@ -36,11 +56,19 @@ nav a {
 }
 
 #Home {
-  background-image: url("homepage-image.jpg");
+  background-image: url("homepage-image4.jpeg");
+}
+
+#About {
+  background-image: url("about-image.jpg");
 }
 
 #Calendar {
   background-image: url("calendar-image.jpg");
+}
+
+#Sponsors {
+  background-image: url("sponsors-image.jpg");
 }
 
 #Social {
