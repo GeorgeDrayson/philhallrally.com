@@ -1,6 +1,8 @@
 body, html {
   height: 100%;
   margin: 0;
+  background-color: black;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container {
@@ -8,19 +10,7 @@ body, html {
   margin: 0 auto;
 }
 
-
-#nav li {
-float:left;
-}
-#nav a {
-display:block;
-text-align:center;
-width:150px; /* fixed width */
-text-decoration:none;
-}
-
 nav {
-  font-family: 'Roboto Condensed', sans-serif;
   font-size: 30px;
   position: fixed;
 }
@@ -59,8 +49,29 @@ nav a:hover {
   background-image: url("homepage-image4.jpeg");
 }
 
-#About {
-  background-image: url("about-image.jpg");
+#about-sub-div {
+  width: 80%;
+  margin: 0 auto;
+  color: #ff5000;
+  font-size: 22px;
+  padding: 100px;
+}
+
+#about-sub-div ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+#about-sub-div li {
+  padding-bottom: 30px;
+}
+
+img[src="about-image.jpg"] {
+  max-width: 40%;
+  height: auto;
+  float: right;
+  clear: both;
+  display: inline-block;
 }
 
 #Calendar {
