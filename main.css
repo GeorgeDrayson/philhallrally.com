@@ -59,7 +59,10 @@ nav a:hover {
 
 #about-sub-div ul {
   list-style-type: none;
-  text-align: left;
+  float: left;
+  display: inline-block;
+  clear: both;
+  font-family: 'Raleway', sans-serif;
 }
 
 #about-sub-div li {
