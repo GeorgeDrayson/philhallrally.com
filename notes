@@ -12,3 +12,17 @@
   height: 100%;
   width: 100%;
 }
+
+<div id="about-sub-div">
+  <ul>
+    <li> Hi, I'm Phil Hall</li>
+    <li>Lorem ipsum dolor sit amet </li>
+    <li>Quisque eu arcu dolor. </li>
+    <li>Etiam rutrum, mi id elementum sollicitud </li>
+    <li>Vestibulum sit amet sagittis elit. Intege </li>
+    <li>Etiam rutrum, mi id elementum sollicitudin,</li>
+    <li>Vestibulum sit amet sagittis elit. Inte </li>
+  </ul>
+</div>
+
+#ff5000
