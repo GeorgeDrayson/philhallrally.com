@@ -2,7 +2,6 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: black;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -30,9 +29,8 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 0 35px;
+  margin: 0 20px;
   padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 nav a {
@@ -56,12 +54,20 @@ nav a:hover {
   background-image: url("homepage-image4.jpeg");
 }
 
+#About {
+  background-color: #7db3fa;
+  height: auto;
+  padding-bottom: 150px;
+}
+
 #about-sub-div {
   clear: both;
   margin: 0 auto;
   color: white;
-  font-size: 22px;
-  padding-left: 200px;
+  font-size: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
   display: inline-block;
 }
 
@@ -69,7 +75,7 @@ nav a:hover {
   list-style-type: none;
   float: right;
   clear: both;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #about-sub-div li {
@@ -82,7 +88,7 @@ img[src="about-image.jpg"] {
   height: 400px;
   width: 400px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 12px solid white;
   margin-top: 150px;
   margin-left: 100px;
 }
@@ -95,29 +101,63 @@ img[src="about-image.jpg"] {
   background-image: url("sponsors-image.jpg");
 }
 
+#Sponsors img {
+  margin: 0 auto;
+  display: inline-block;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 26%;
+  padding-left: 5%;
+  padding-top: 120px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #Social {
   background-image: url("social-image.jpg");
-  padding-top: 75px;
-  padding-left: 75px;
+}
+
+#social-links {
+  padding-top: 80px;
+  padding-left: 70px;
 }
 
 .social-link img {
-  height: 60px;
-  width: 60px;
+  height: 70px;
+  width: 70px;
   clear: both;
+  margin: 0 auto;
   display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+}
+
+.social-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.social-link a:hover {
+  color: #ff5000;
 }
 
 .social-link h1 {
   display: inline-block;
   clear: both;
-  color: #ff5000;
-  margin-top: 35px;
-  margin-left: 30px;
+  padding-left: 50px;
 }
 
 .social-text {
   display: inline-block;
   clear: both;
-  padding-bottom: 50px;
 }
