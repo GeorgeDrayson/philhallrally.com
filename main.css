@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 #Home {
-  background-image: url("homepage-image2.jpg");
+  background-image: url("homepage-image.jpg");
 }
 
 #About {
@@ -63,11 +63,11 @@ nav a:hover {
 #about-sub-div {
   clear: both;
   margin: 0 auto;
-  color: white;
-  font-size: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 50px;
+  color: black;
+  font-size: 29px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
   display: inline-block;
 }
 
@@ -80,9 +80,16 @@ nav a:hover {
 
 #about-sub-div li {
   padding-bottom: 20px;
+  text-transform: uppercase;
 }
 
-img[src="about-image2.jpg"] {
+#phil_intro {
+  font-size: 80px;
+  color: #FF5D00;
+  padding: 0px;
+}
+
+img[src="about-image.jpg"] {
   clear: both;
   display: inline-block;
   height: 400px;
@@ -94,11 +101,11 @@ img[src="about-image2.jpg"] {
 }
 
 #Calendar {
-  background-image: url("calendar-image2.jpg");
+  background-image: url("calendar-image.jpg");
 }
 
 #Sponsors {
-  background-image: url("sponsors-image2.jpg");
+  background-image: url("sponsors-image.jpg");
 }
 
 #Sponsors img {
@@ -121,7 +128,7 @@ img[src="about-image2.jpg"] {
 }
 
 #Social {
-  background-image: url("social-image2.jpg");
+  background-image: url("social-image.jpg");
 }
 
 #social-links {
