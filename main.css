@@ -51,11 +51,11 @@ nav a:hover {
 }
 
 #Home {
-  background-image: url("homepage-image4.jpeg");
+  background-image: url("homepage-image.jpg");
 }
 
 #About {
-  background-color: #7db3fa;
+  background-color: #84BFFF;
   height: auto;
   padding-bottom: 150px;
 }
@@ -98,7 +98,7 @@ img[src="about-image.jpg"] {
 }
 
 #Sponsors {
-  background-image: url("sponsors-image.jpg");
+  background-image: url("sponsors-image2.jpg");
 }
 
 #Sponsors img {
@@ -114,7 +114,6 @@ img[src="about-image.jpg"] {
   padding-top: 120px;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
