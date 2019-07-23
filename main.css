@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 #Home {
-  background-image: url("homepage-image.jpg");
+  background-image: url("homepage-image2.jpg");
 }
 
 #About {
@@ -82,7 +82,7 @@ nav a:hover {
   padding-bottom: 20px;
 }
 
-img[src="about-image.jpg"] {
+img[src="about-image2.jpg"] {
   clear: both;
   display: inline-block;
   height: 400px;
@@ -94,7 +94,7 @@ img[src="about-image.jpg"] {
 }
 
 #Calendar {
-  background-image: url("calendar-image.jpg");
+  background-image: url("calendar-image2.jpg");
 }
 
 #Sponsors {
@@ -121,7 +121,7 @@ img[src="about-image.jpg"] {
 }
 
 #Social {
-  background-image: url("social-image.jpg");
+  background-image: url("social-image2.jpg");
 }
 
 #social-links {
