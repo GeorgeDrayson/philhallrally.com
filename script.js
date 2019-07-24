@@ -14,16 +14,17 @@ $(document).ready(function(){
   });
 });
 
-
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 10) {
-	    $(".container").css("background" , "rgba(181, 181, 181,0.8)");
+	  if (scroll > 200) {
+      $(".container").animate({
+        backgroundColor: 'rgba(76, 84, 84,0.7)'}, 10);
 	  }
 
 	  else{
-		  $(".container").css("background" , "transparent");
-	  }
-  })
-})
+      $(".container").animate({
+        backgroundColor: 'transparent'}, 1);
+    }
+  });
+});
