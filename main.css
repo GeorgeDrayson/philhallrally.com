@@ -3,6 +3,7 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
+  background-color: #FDFDFD;
 }
 
 .container {
@@ -14,9 +15,10 @@ body, html {
 }
 
 nav {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 nav ul {
@@ -30,13 +32,12 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 0 20px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin: 0 10px;
+  padding-top: 20px;
 }
 
 nav a {
-  color: white;
+  color: #FDFDFD;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -54,6 +55,7 @@ nav a:hover {
 
 #Home {
   background-image: url("homepage-image.jpg");
+  background-attachment: fixed;
 }
 
 #About {
@@ -119,7 +121,7 @@ img[src="about-image.jpg"] {
   float: left;
   width: 26%;
   padding-left: 5%;
-  padding-top: 120px;
+  padding-top: 150px;
 }
 
 .row::after {
@@ -129,42 +131,42 @@ img[src="about-image.jpg"] {
 }
 
 #Social {
-  background-image: url("social-image.jpg");
+  height: 100%;
+  width: auto;
 }
 
-#social-links {
-  padding-top: 80px;
-  padding-left: 70px;
+#social-images {
+  height: 80%;
 }
 
-.social-link img {
-  height: 70px;
-  width: 70px;
-  clear: both;
-  margin: 0 auto;
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 20px;
+img[src="social-image.jpg"] {
+  height: 90%;
+  max-width: 100%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 90px;
+  padding-bottom: 30px;
 }
 
-.social-link a {
-  color: white;
+#social-media-images {
+  text-align: center;
+}
+
+#social-media-images a {
   text-decoration: none;
-  font-size: 40px;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.social-link a:hover {
-  color: #ff5000;
-}
-
-.social-link h1 {
-  display: inline-block;
+#social-media-images img {
+  height: 40px;
+  width: 40px;
   clear: both;
+  padding-right: 50px;
   padding-left: 50px;
+  display: inline-block;
 }
 
-.social-text {
-  display: inline-block;
-  clear: both;
+#social-media-images a:hover {
+  opacity: 0.3;
 }

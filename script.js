@@ -17,9 +17,9 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 200) {
+	  if (scroll > 600) {
       $(".container").animate({
-        backgroundColor: 'rgba(76, 84, 84,0.7)'}, 10);
+        backgroundColor: 'rgba(0,0,0,0.6)'}, 10);
 	  }
 
 	  else{

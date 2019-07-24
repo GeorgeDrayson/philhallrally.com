@@ -26,3 +26,17 @@
 </div>
 
 #ff5000
+
+<div class="page-div" id="About">
+  <img src="about-image.jpg">
+  <div id="about-sub-div">
+    <ul>
+      <h1 id="phil_intro"> Hi, I'm Phil Hall </h1>
+      <li>Lorem ipsum dolor sit amet </li>
+      <li>Quisque eu arcu dolor. </li>
+      <li>Etiam rutrum, mi id elementum sollicitud </li>
+      <li>Vestibulum sit amet sagittis elit. Intege </li>
+      <li>Etiam rutrum, mi id elementum sollicitudin,</li>
+    </ul>
+  </div>
+</div>
