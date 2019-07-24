@@ -10,11 +10,13 @@ body, html {
   margin: 0 auto;
   text-align: center;
   position: fixed;
+  background-color: transparent;
 }
 
 nav {
   font-size: 30px;
   text-align: center;
+  overflow: hidden;
 }
 
 nav ul {
@@ -24,13 +26,13 @@ nav ul {
   display: inline-block;
   text-align:center;
   position: relative;
-
 }
 
 nav ul li {
   display: inline-block;
   margin: 0 20px;
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 nav a {
