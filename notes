@@ -40,3 +40,20 @@
     </ul>
   </div>
 </div>
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #ff5000;
+
+  position: absolute;
+  top: 0;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
