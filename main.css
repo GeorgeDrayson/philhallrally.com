@@ -34,6 +34,7 @@ nav ul li {
   display: inline-block;
   margin: 0 10px;
   padding-top: 20px;
+  position: relative;
 }
 
 nav a {
@@ -44,6 +45,23 @@ nav a {
 
 nav a:hover {
   color: #ff5000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #ff5000;
+
+  position: absolute;
+  top: 0;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
 
 .page-div {
@@ -59,7 +77,6 @@ nav a:hover {
 }
 
 #About {
-  height: auto;
   padding-bottom: 150px;
 }
 
@@ -104,7 +121,51 @@ img[src="about-image.jpg"] {
 }
 
 #Calendar {
-  background-image: url("calendar-image.jpg");
+  margin-top: 75px;
+  text-align: center;
+}
+
+.event {
+  clear: both;
+  display: inline-block;
+  z-index: 0;
+}
+
+.calendar-img {
+  opacity: 1;
+  display: inline-block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.event-description {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.event:hover .calendar-img {
+  opacity: 0.3;
+}
+
+.event:hover .event-description {
+  opacity: 1;
+}
+
+.event h1 {color: #FF5D00;}
+.event h4{color: black;}
+.event p {color: gray;}
+
+img[src="calendar-image.jpg"] {
+  width: 700px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #Sponsors {
@@ -122,6 +183,10 @@ img[src="about-image.jpg"] {
   width: 26%;
   padding-left: 5%;
   padding-top: 150px;
+}
+
+.column a:hover {
+  opacity: 0.8;
 }
 
 .row::after {
@@ -162,8 +227,8 @@ img[src="social-image.jpg"] {
   height: 40px;
   width: 40px;
   clear: both;
-  padding-right: 50px;
-  padding-left: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
   display: inline-block;
 }
 
