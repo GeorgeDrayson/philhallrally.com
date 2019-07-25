@@ -118,6 +118,7 @@ img[src="about-image.jpg"] {
 }
 
 #Calendar {
+  padding-bottom: 100px;
 }
 
 .mySlides {
@@ -128,9 +129,11 @@ img[src="about-image.jpg"] {
 
 .slideshow-img {
   vertical-align: middle;
-  width:650px;
-  height: 390px;
-  float: left;
+  height: 380px;
+  width: auto;
+}
+
+.slideshow-img-div {
   display: inline-block;
   clear: both;
   margin-left: auto;
@@ -139,7 +142,8 @@ img[src="about-image.jpg"] {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1300px;
+  max-width: 1400px;
+  height: 80%;
   position: relative;
   margin: auto;
 }
@@ -160,9 +164,13 @@ img[src="about-image.jpg"] {
   user-select: none;
 }
 
+.prev {
+  left: 10px;
+}
+
 /* Position the "next button" to the right */
 .next {
-  right: 0px;
+  right: 10px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -177,7 +185,6 @@ img[src="about-image.jpg"] {
   display: inline-block;
   clear: both;
   margin: 0 auto;
-  margin-top: 60px;
 }
 
 .text h1 {text-transform: uppercase;}
