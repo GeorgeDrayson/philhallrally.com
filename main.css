@@ -74,84 +74,68 @@ nav a:hover {
 }
 
 #About {
-  padding-bottom: 150px;
-}
-
-#about-sub-div {
-  clear: both;
-  margin: 0 auto;
-  color: black;
-  font-size: 29px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 50px;
-  display: inline-block;
-}
-
-#about-sub-div ul {
-  list-style-type: none;
-  float: right;
-  clear: both;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-#about-sub-div li {
-  padding-bottom: 20px;
-  text-transform: uppercase;
-}
-
-#phil_intro {
-  font-size: 80px;
-  color: #FF5D00;
-  padding: 0px;
-}
-
-img[src="about-image.jpg"] {
-  clear: both;
-  display: inline-block;
-  height: 400px;
-  width: 400px;
-  border-radius: 50%;
-  border: 12px solid white;
-  margin-top: 150px;
-  margin-left: 100px;
 }
 
 #Calendar {
-}
-
-.mySlides {
-  display: none;
-  text-align: center;
-  height: 90%;
-  width: auto;
-  position: relative;
-}
-
-.slideshow-img {
-  vertical-align: middle;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  display: inline-block;
-  opacity: 1;
-  backface-visibility: hidden;
-}
-
-
-.container:hover .slideshow-img {
-  opacity: 0.3;
-}
-
-.container:hover .text {
-  opacity: 1;
 }
 
 /* Slideshow container */
 .slideshow-container {
   position: relative;
   margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  text-align: center;
 }
+
+.mySlides {
+  display: none;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.slide-container {
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.slide-container:hover .background {
+  opacity: 0.3;
+}
+
+.slide-container:hover .text {
+  opacity: 1;
+}
+
+.background {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: .5s ease;
+}
+
+#background1 {background-image: url("calendar-image.jpg");}
+#background2 {background-image: url("calendar-image2.jpg");}
+#background3 {background-image: url("calendar-image3.jpg");}
+#background4 {background-image: url("calendar-image4.jpg");}
+
+.text {
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+
+.text h1 {text-transform: uppercase; color: #ff5000;}
+.text h3 {color: #ff5000;}
+.text p {color: black;}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -183,25 +167,6 @@ img[src="about-image.jpg"] {
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
-.text {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.numbertext {
-  display: none;
-}
-
-.mySlides h1 {text-transform: uppercase; color: #ff5000;}
-.text h3 {color: black;}
-.text p {color: gray;}
 
 /* Fading animation */
 .fade {
