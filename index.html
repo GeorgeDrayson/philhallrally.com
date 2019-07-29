@@ -1,132 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:500|Source+Sans+Pro:900&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="script.js"></script>
-  <title> philhallrally.com</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:500|Source+Sans+Pro:900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+    <title> philhallrally.com</title>
+  </head>
+  <body>
 
-  <header>
-    <div class="navbar">
-      <nav>
-        <ul>
-          <li style="margin-left: 0px;"><a href="#Home">Home</a></li>
-          <li><a href="#Calendar">Calendar</a></li>
-          <li><a href="#Sponsors">Sponsors</a></li>
-          <li style="margin-right: 0px;"><a href="#Social">Social</a></li>
-          <div class="progress-container">
-            <div class="progress-bar" id="myBar"></div>
+    <header>
+
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li style="margin-left: 0px;"><a href="#Home">Home</a></li>
+            <li><a href="#Calendar">Calendar</a></li>
+            <li><a href="#Sponsors">Sponsors</a></li>
+            <li style="margin-right: 0px;"><a href="#Social">Social</a></li>
+
+            <div class="progress-container">
+              <div id="progress-bar"></div>
+            </div>
+          </ul>
+
+        </nav>
+      </div>
+
+    </header>
+
+
+    <div class="page-div" id="Home"></div>
+
+
+    <div class="page-div" id="Calendar">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade" style="display: block;">
+          <div class="slide-container">
+            <div class="background" id="background1"></div>
+            <div class="text">
+              <h1>Race 1</h1>
+              <h3> Location 1 | dd/mm/yyyy </h3>
+              <p> This is a description about a race </br>
+                Add text here. Add text here. </br>
+                Add text here. Add text here. </br>
+                Add text here. Add text here. </p>
+            </div>
           </div>
-        </ul>
-      </nav>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="slide-container">
+            <div class="background" id="background2"></div>
+            <div class="text">
+              <h1>Race 2</h1>
+              <h3> Location 2 | dd/mm/yyyy </h3>
+              <p> This is a description about a race </br>
+                Add text here. Add text here. </br>
+                Add text here. Add text here. </br>
+                Add text here. Add text here. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="slide-container">
+            <div class="background" id="background3"></div>
+            <div class="text">
+              <h1>Race 3</h1>
+              <h3> Location 3 | dd/mm/yyyy </h3>
+              <p> This is a description about a race </br>
+                Add text here. Add text here. </br>
+                Add text here. Add text here. </br>
+                Add text here. Add text here. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="slide-container">
+            <div class="background" id="background4"></div>
+            <div class="text">
+              <h1>Race 4</h1>
+              <h3> Location 4 | dd/mm/yyyy </h3>
+              <p> This is a description about a race </br>
+                Add text here. Add text here. </br>
+                Add text here. Add text here. </br>
+                Add text here. Add text here. </p>
+            </div>
+          </div>
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
     </div>
-  </header>
-  <div class="page-div" id="Home">
-  </div>
 
-  <div class="page-div" id="Calendar">
-    <div class="slideshow-container">
 
-      <div class="mySlides fade" style="display: block;">
-        <div class="slide-container">
-          <div class="background" id="background1"></div>
-          <div class="text">
-            <h1>Race 1</h1>
-            <h3> Location 1 | dd/mm/yyyy </h3>
-            <p> This is a description about a race </br>
-              Add text here. Add text here. </br>
-              Add text here. Add text here. </br>
-              Add text here. Add text here. </p>
-          </div>
+    <div class="page-div" id="Sponsors">
+      <div class="row">
+        <div class="column">
+          <a href="https://www.pirelli.com/global/en-ww/homepage" target="_blank"><img src="pirelli-logo.png" alt="pirelli logo" style="width:80%;"></a>
         </div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="slide-container">
-          <div class="background" id="background2"></div>
-          <div class="text">
-            <h1>Race 2</h1>
-            <h3> Location 2 | dd/mm/yyyy </h3>
-            <p> This is a description about a race </br>
-              Add text here. Add text here. </br>
-              Add text here. Add text here. </br>
-              Add text here. Add text here. </p>
-          </div>
+        <div class="column">
+          <a href="https://www.raf.mod.uk/" target="_blank"><img src="raf-logo.svg.png" alt="raf logo" style="width:80%;"></a>
         </div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="slide-container">
-          <div class="background" id="background3"></div>
-          <div class="text">
-            <h1>Race 3</h1>
-            <h3> Location 3 | dd/mm/yyyy </h3>
-            <p> This is a description about a race </br>
-              Add text here. Add text here. </br>
-              Add text here. Add text here. </br>
-              Add text here. Add text here. </p>
-          </div>
+        <div class="column">
+          <a href="https://www.raf.mod.uk/recruitment/" target="_blank"><img src="ordinary-logo.png" alt="No ordinary job logo" style="width:80%;"></a>
         </div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="slide-container">
-          <div class="background" id="background4"></div>
-          <div class="text">
-            <h1>Race 4</h1>
-            <h3> Location 4 | dd/mm/yyyy </h3>
-            <p> This is a description about a race </br>
-              Add text here. Add text here. </br>
-              Add text here. Add text here. </br>
-              Add text here. Add text here. </p>
-          </div>
-        </div>
-      </div>
-
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      </div>
-  </div>
-
-
-  <div class="page-div" id="Sponsors">
-    <div class="row">
-      <div class="column">
-        <a href="https://www.pirelli.com/global/en-ww/homepage" target="_blank"><img src="pirelli-logo.png" alt="pirelli logo" style="width:80%;"></a>
-      </div>
-      <div class="column">
-        <a href="https://www.raf.mod.uk/" target="_blank"><img src="raf-logo.svg.png" alt="raf logo" style="width:80%;"></a>
-      </div>
-      <div class="column">
-        <a href="https://www.raf.mod.uk/recruitment/" target="_blank"><img src="ordinary-logo.png" alt="No ordinary job logo" style="width:80%;"></a>
       </div>
     </div>
-  </div>
 
-  <div id="Social">
-    <div id="social-images">
+
+    <div id="Social">
+      <div id="social-images">
         <img src="social-image.jpg" alt="Phil Hall signing an autograph">
-      <div id="social-media-images">
-        <a href="https://www.instagram.com/philhallrally " target="_blank"> <img src="instagram.png"> </a>
-        <a href="https://www.facebook.com/philrally" target="_blank"> <img src="facebook.png"> </a>
-        <a href="https://twitter.com/philhallrally" target="_blank"> <img src="twitter.png"> </a>
+        <div id="social-media-images">
+          <a href="https://www.instagram.com/philhallrally " target="_blank"> <img src="instagram.png" alt="instagram logo"> </a>
+          <a href="https://www.facebook.com/philrally" target="_blank"> <img src="facebook.png" alt="facebook logo"> </a>
+          <a href="https://twitter.com/philhallrally" target="_blank"> <img src="twitter.png" alt="twitter logo"> </a>
+        </div>
       </div>
     </div>
-  </div>
 
-<script src="script2.js"></script>
+  <script src="script2.js"></script>
 
-</body>
+  </body>
 </html>

@@ -54,7 +54,7 @@ nav a:hover {
   border-radius: 200px;
 }
 
-.progress-bar {
+#progress-bar {
   height: 5px;
   background: #ff5000;
   width: 0%;
