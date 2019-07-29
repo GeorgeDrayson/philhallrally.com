@@ -1,8 +1,8 @@
-# [philhallrally.com](philhallrally.herokuapp.com)
+[philhallrally.com](philhallrally.herokuapp.com)
 Coded by [George Drayson](https://github.com/GeorgeDrayson)
 
 ## Introduction
-This is a personal website for rally co-driver Phil Hall
+This is a personal website for rally driver Phil Hall
 
 ![Homepage screenshot](screenshot-home.jpg)
 
