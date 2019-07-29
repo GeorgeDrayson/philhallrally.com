@@ -70,7 +70,7 @@ body, html {
 }
 
 #Home {
-  background-image: url("homepage-image.jpg");
+  background-image: url("images/home/homepage-image.jpg");
   background-attachment: fixed;
 }
 
@@ -109,10 +109,10 @@ body, html {
     transition: .5s ease;
   }
 
-  #background1 {background-image: url("calendar-image.jpg");}
-  #background2 {background-image: url("calendar-image2.jpg");}
-  #background3 {background-image: url("calendar-image3.jpg");}
-  #background4 {background-image: url("calendar-image4.jpg");}
+  #background1 {background-image: url("images/calendar/calendar-image.jpg");}
+  #background2 {background-image: url("images/calendar/calendar-image2.jpg");}
+  #background3 {background-image: url("images/calendar/calendar-image3.jpg");}
+  #background4 {background-image: url("images/calendar/calendar-image4.jpg");}
 
   .text {
     transition: .5s ease;
@@ -177,7 +177,7 @@ body, html {
 
 
 #Sponsors {
-  background-image: url("sponsors-image.jpg");
+  background-image: url("images/sponsors/sponsors-image.jpg");
 }
 
 #Sponsors img {
@@ -210,7 +210,7 @@ body, html {
 
 #social-images { height: 80%; }
 
-img[src="social-image.jpg"] {
+img[src="images/social/social-image.jpg"] {
   height: 90%;
   max-width: 100%;
   width: auto;
