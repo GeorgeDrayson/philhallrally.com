@@ -98,15 +98,13 @@ body, html {
     text-align: center;
   }
 
-  .slide-container:hover .background { opacity: 0.3; }
-  .slide-container:hover .text { opacity: 1; }
-
   .background {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: .5s ease;
+    opacity: 0.25;
   }
 
   #background1 {background-image: url("images/calendar/calendar-image.jpg");}
@@ -119,7 +117,7 @@ body, html {
     position: absolute;
     top: 50%;
     left: 50%;
-    opacity: 0;
+    opacity: 1;
     transform: translate(-50%, -50%);
   }
 
