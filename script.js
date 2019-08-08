@@ -26,7 +26,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 580) {
+	  if (scroll > 400) {
       $(".navbar").animate({
         backgroundColor: 'rgba(0,0,0,0.5)'}, 20);
 	  }
