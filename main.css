@@ -84,6 +84,46 @@ body, html {
   margin-top: 10px;
 }
 
+#About {
+  height: 100%;
+  position: relative;
+  background-color: #ff5000;
+  text-align: center;
+}
+
+.about-text {
+  text-align: center;
+  clear: both;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.about-text h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 80px;
+}
+
+#About h3 {
+  color: white;
+  font-size: 30px;
+}
+
+#About p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Blinker', sans-serif;
+}
+
+.about-text ul {
+  color: black;
+  font-size: 32px;
+  list-style-type: none;
+  font-family: 'Blinker', sans-serif;
+  background-color: white;
+  padding: 25px 0;
+}
+
 #Calendar {
 }
 

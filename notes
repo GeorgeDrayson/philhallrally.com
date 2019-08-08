@@ -72,3 +72,8 @@ $(document).ready(function(){
     }
   });
 });
+
+<h3> Competed in: </h3>
+<p> Great Britain, France, Finland, Italy, Poland, Latvia, USA, Canada,
+  Paraguay, Mexico, Japan, New Zealand, Australia, Germany, Austria,
+  Sweden, Norway, Spain, Portugal, Turkey </p>
