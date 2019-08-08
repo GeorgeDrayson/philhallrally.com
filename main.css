@@ -13,7 +13,7 @@ body, html {
     margin: 0 auto;
     text-align: center;
     position: fixed;
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.4);
     z-index: 10;
   }
 
@@ -35,13 +35,13 @@ body, html {
 
   nav ul li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px;
     padding-top: 20px;
     position: relative;
   }
 
   nav a {
-    color: #FDFDFD;
+    color: #fdfdfd;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -74,6 +74,16 @@ body, html {
   background-attachment: fixed;
 }
 
+#raf-logo {
+  height: 50px;
+  width: 50px;
+  float: right;
+  clear: both;
+  margin: auto;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
 #Calendar {
 }
 
@@ -104,10 +114,10 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     transition: .5s ease;
-    opacity: 0.35;
+    opacity: 0.3;
   }
 
-  #sweden {background-image: url("images/calendar/calendar-image5.jpg");}
+  #sweden {background-image: url("images/calendar/sweden.jpg");}
   #corsica {background-image: url("images/calendar/corsica.jpg");}
   #sardegna {background-image: url("images/calendar/sardegna.jpg");}
   #finland {background-image: url("images/calendar/finland.jpg");}
@@ -149,7 +159,7 @@ body, html {
   .next { right: 10px; border-radius: 3px 0 0 3px; }
 
   /* On hover, add a black background color with high opacity */
-  .prev:active, .next:active { background-color: rgba(0,0,0,0.8); }
+  .prev:hover, .next:hover { background-color: rgba(0,0,0,0.8); }
 
   /* Fading animation */
   .fade {

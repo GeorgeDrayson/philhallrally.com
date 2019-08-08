@@ -57,3 +57,18 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 400) {
+      $(".navbar").animate({
+        backgroundColor: 'rgba(0,0,0,0.5)'}, 20);
+	  }
+
+	  else{
+      $(".navbar").animate({
+        backgroundColor: 'transparent'}, 1);
+    }
+  });
+});

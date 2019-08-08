@@ -22,18 +22,3 @@ $(document).ready(function(){
     document.getElementById("progress-bar").style.width = scrolled + "%";
   }
 });
-
-$(document).ready(function(){
-  $(window).scroll(function(){
-  	var scroll = $(window).scrollTop();
-	  if (scroll > 400) {
-      $(".navbar").animate({
-        backgroundColor: 'rgba(0,0,0,0.5)'}, 20);
-	  }
-
-	  else{
-      $(".navbar").animate({
-        backgroundColor: 'transparent'}, 1);
-    }
-  });
-});
