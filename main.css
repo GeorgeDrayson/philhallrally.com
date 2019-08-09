@@ -82,9 +82,10 @@ body, html {
 #Home {
   background-image: url("images/home/homepage-image.jpg");
   background-attachment: fixed;
+  text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #Home {background-attachment: local;
     background-image: url("images/home/homepage-image2.jpg");}
 }
@@ -92,12 +93,14 @@ body, html {
 
 #raf-logo {
   height: 50px;
-  width: 50px;
-  float: right;
-  clear: both;
-  margin: auto;
-  margin-right: 15px;
-  margin-top: 10px;
+  width: 120px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+#raf-logo:hover {
+  opacity: 0.7;
 }
 
 #About {
@@ -274,7 +277,7 @@ body, html {
   }
 
   .column a:hover {
-    opacity: 0.8;
+    opacity: 0.7;
   }
 
   .row::after {
@@ -284,32 +287,34 @@ body, html {
   }
 
 #Social {
-  height: 100%;
-  width: auto;
+  padding-top: 80px;
 }
 
-#social-images { height: 80%; }
-
-img[src="images/social/social-image.jpg"] {
-  height: 90%;
-  max-width: 100%;
-  width: auto;
+#signing-photo {
+  max-width: 45%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 90px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  #signing-photo {max-width: 60%;}
+}
+
+@media (max-width: 700px) {
+  #signing-photo {max-width: 70%;}
 }
 
 #social-media-images { text-align: center; }
 #social-media-images a { text-decoration: none; }
-#social-media-images a:hover { opacity: 0.3; }
+#social-media-images a:hover { opacity: 0.3; transition: 0.4s ease;}
 
 #social-media-images img {
   height: 30px;
   width: 30px;
   clear: both;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 20px 20px;
   display: inline-block;
 }

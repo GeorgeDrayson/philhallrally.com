@@ -76,3 +76,15 @@ $(document).ready(function(){
 <a href="https://www.raf.mod.uk/" target="_blank">
   <img src="images/raf.png" alt="raf logo" id='raf-logo'>
 </a>
+
+@media (max-width: 380px) {
+  #signing-photo {height: 30%;}
+}
+
+@media (min-width: 380px) and (max-width: 550px) {
+  #signing-photo {height: 45%;}
+}
+
+@media (min-width: 550px) and (max-width: 760px) {
+  #signing-photo {height: 65%;}
+}
