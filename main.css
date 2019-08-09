@@ -40,6 +40,11 @@ body, html {
     position: relative;
   }
 
+  @media (max-width: 600px) {
+    nav ul li {margin: 0 1px;}
+    nav {font-size: 22px}
+  }
+
   nav a {
     color: #fdfdfd;
     text-decoration: none;
@@ -73,6 +78,11 @@ body, html {
   background-image: url("images/home/homepage-image.jpg");
   background-attachment: fixed;
 }
+
+@media only screen and (max-width: 500px) {
+  #Home {background-attachment: local}
+}
+
 
 #raf-logo {
   height: 50px;
@@ -121,6 +131,33 @@ body, html {
   list-style-type: none;
   background-color: #fdfdfd;
   padding: 25px 0;
+}
+
+@media (max-width: 350px) {
+  #About p {font-size: 14px}
+  .about-text ul {font-size: 18px}
+  .about-text h1 {font-size: 50px}
+  .about-text {padding-top: 120px}
+}
+
+@media (min-width: 350px) and (max-width: 460px) {
+  #About p {font-size: 14px}
+  .about-text ul {font-size: 22px}
+  .about-text h1 {font-size: 60px}
+  .about-text {padding-top: 90px}
+}
+
+@media (min-width: 460px) and (max-width: 555px) {
+  #About p {font-size: 18px}
+  .about-text ul {font-size: 24px}
+  .about-text h1 {font-size: 70px}
+  .about-text {padding-top: 70px}
+}
+
+@media (min-width: 555px) and (max-width: 700px) {
+  #About p {font-size: 20px}
+  .about-text ul {font-size: 28px}
+  .about-text h1 {font-size: 80px}
 }
 
 #Calendar {
