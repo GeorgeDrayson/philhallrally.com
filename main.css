@@ -40,9 +40,14 @@ body, html {
     position: relative;
   }
 
-  @media (max-width: 600px) {
-    nav ul li {margin: 0 1px;}
-    nav {font-size: 22px}
+  @media (max-width: 390px) {
+    nav ul li {margin: 0 0.5px; padding-top: 15px;}
+    nav {font-size: 14px; padding-bottom: 15px;}
+  }
+
+  @media (min-width: 390px) and (max-width: 600px) {
+    nav ul li {margin: 0 2px;}
+    nav {font-size: 20px}
   }
 
   nav a {
@@ -79,8 +84,9 @@ body, html {
   background-attachment: fixed;
 }
 
-@media only screen and (max-width: 500px) {
-  #Home {background-attachment: local}
+@media only screen and (max-width: 600px) {
+  #Home {background-attachment: local;
+    background-image: url("images/home/homepage-image2.jpg");}
 }
 
 
@@ -102,6 +108,7 @@ body, html {
 
 .about-text {
   text-align: center;
+  width: 100%;
   clear: both;
   margin: 0 auto;
   padding-top: 25px;
@@ -244,8 +251,9 @@ body, html {
   }
 
   /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+  @media (max-width: 500px) {
+    .text {font-size: 13px}
+    .prev, .next {font-size: 40px;}
   }
 
 #Sponsors {
