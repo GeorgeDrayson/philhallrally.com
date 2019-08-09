@@ -89,6 +89,7 @@ body, html {
   position: relative;
   background-color: #ff5000;
   text-align: center;
+  color: white
 }
 
 .about-text {
@@ -96,31 +97,29 @@ body, html {
   clear: both;
   margin: 0 auto;
   padding-top: 25px;
+  font-family: 'Blinker', sans-serif;
+  color: white;
 }
 
 .about-text h1 {
   text-transform: uppercase;
-  color: white;
   font-size: 80px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #About h3 {
-  color: white;
   font-size: 30px;
 }
 
 #About p {
-  color: white;
   font-size: 20px;
-  font-family: 'Blinker', sans-serif;
 }
 
 .about-text ul {
   color: black;
   font-size: 32px;
   list-style-type: none;
-  font-family: 'Blinker', sans-serif;
-  background-color: white;
+  background-color: #fdfdfd;
   padding: 25px 0;
 }
 
@@ -274,8 +273,8 @@ img[src="images/social/social-image.jpg"] {
 #social-media-images a:hover { opacity: 0.3; }
 
 #social-media-images img {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   clear: both;
   margin-right: 50px;
   margin-left: 50px;
