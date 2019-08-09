@@ -4,7 +4,7 @@ Coded by [George Drayson](https://github.com/GeorgeDrayson)
 ## Introduction
 This is a personal website for rally driver Phil Hall
 
-![Homepage screenshot](screenshot-home.jpg)
+![Homepage screenshot](images/screenshot-home.jpg)
 
 ## Tech Stack
 
