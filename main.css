@@ -81,7 +81,6 @@ body, html {
 
 #Home {
   background-image: url("images/home/homepage-image.jpg");
-  background-attachment: fixed;
   text-align: center;
 }
 
@@ -317,4 +316,30 @@ body, html {
   clear: both;
   margin: 20px 20px;
   display: inline-block;
+}
+
+#Nebula_Digital {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px 0;
+}
+
+#Nebula_Digital p {
+  margin: 0 auto;
+  text-align: center;
+  clear: both;
+  display: inline-block;
+  font-size: 25px;
+  padding-left: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+#nebula_logo {
+  clear: both;
+  display: inline-block;
+  margin: 0 auto;
+  height: 35px;
+  width: 35px;
+  vertical-align: sub;
 }
