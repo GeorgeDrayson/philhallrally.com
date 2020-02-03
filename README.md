@@ -1,4 +1,4 @@
-# [philhallrally.com](https://philhallrally.herokuapp.com)
+# [philhallrally.com](http://philhallrally.com)
 Coded by [George Drayson](https://github.com/GeorgeDrayson)
 
 ## Introduction
